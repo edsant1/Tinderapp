@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
+
+  root 'login#new'
+
   resources :tags
 
-  resources :logins
-  
   resources :users do
     resources :profiles do
       resources :comments
