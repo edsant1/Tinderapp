@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'tags/create'
+
+  get 'tags/update'
+
+  get 'tags/destroy'
+
+  get 'tags/new'
+
+  get 'tags/edit'
+
   get 'login/create'
 
   get 'login/destroy'
